@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://primat.se/services/sendform.aspx?xid=kickmaier&xmail=ithas@hotmail.com" method="post">
+        <label for="name">Ditt namn</label><br>
+        <input id="name" type="text" name= "name" placeholder="Ange ditt namn"><br>
+        <br>
+        <label for="expectations">Dina förväntningar</label><br>
+        <textarea id="expectations" name="expectations" rows="5" cols="80" placeholder="Skriv dina förväntningar här"></textarea><br>
+        <br>
+        <p>Välj mat</p>
+        <input type="radio" name="food" id="meat" value="meat" required>
+        <label for="meat">Kött</label><br>
+        <input type="radio" name="food" id="fish" value="fish">
+        <label for="veggie">Fisk</label><br>
+        <input type="radio" name="food" id="veggie" value="veggie">
+        <label for="veggie">Vegetarisk</label><br>
+        <br>
+        <input type="checkbox" name="newsletter" value="Ja">
+        <input type="hidden" name="newsletter" value="Nej">
+        <label for="newsletter">Jag vill ha nyhetsbrevet</label>
+        <br>
+        <br>
+        <input type="date" name="theDate" id="theDate"><br>
+        <br>
+        <input type="number" name="amount" id="amount" min="0" max="10" step="1"><br>
+        <br>
+        <input type="color" name="shirtcolor" id="shirtcolor"><br>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Ange din e-post"><br>
+        <br>
+        <select name ="country">
+            <option value="">Välj land</option>
+            <option value="sweden">Sverige</option>
+            <option value="norway">Norge</option>
+            <option value="denmark">Danmark</option>
+        </select><br>
+        <input type="submit" value="Skicka">
+        <br>
+    </form>
+</body>
+</html>
